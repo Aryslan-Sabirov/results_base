@@ -1,0 +1,43 @@
+.container-all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 100px 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.container-big {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  text-align: center;
+  font-weight: 900;
+  border: 1px solid grey;
+  align-items: center;
+  align-self: center;
+  background-color: darkgrey;
+}
+
+
+.container-metrics {
+  border: 1px solid grey;
+  background-color: darkgrey;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.container-integrity {
+  border: 1px solid grey;
+  background-color: darkgrey;
+  padding: 10px;
+}
+
+.container-anomalies {
+  border: 1px solid grey;
+  background-color: darkgrey;
+  padding: 10px;
+}
